@@ -5,13 +5,13 @@ body {
   background: aliceblue;
 }
 
-/* Title */
+
 h1 {
   color: darkslategray;
   margin-top: 20px;
 }
 
-/* GRID */
+
 .job-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -19,7 +19,6 @@ h1 {
   padding: 25px;
 }
 
-/* Responsive */
 @media (max-width: 1200px) {
   .job-container {
     grid-template-columns: repeat(3, 1fr);
@@ -38,7 +37,7 @@ h1 {
   }
 }
 
-/* CARD */
+
 .job-card {
   background: white;
   border-radius: 12px;
@@ -57,12 +56,12 @@ h1 {
   color: black;
 }
 
-/* Text */
+
 .job-card p {
   color: dimgray;
 }
 
-/* BUTTON */
+
 button {
   background: mediumslateblue;
   color: white;
@@ -78,7 +77,7 @@ button:hover {
   background: slateblue;
 }
 
-/* DETAILS SECTION */
+
 .job-card div {
   margin-top: 10px;
   padding-top: 10px;
